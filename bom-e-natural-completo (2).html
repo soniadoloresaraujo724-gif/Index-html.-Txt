@@ -1,0 +1,2138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Bom &amp; Natural — Análise Visual da Pele &amp; Protocolos Naturais</title>
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='110' fill='%23FDF8F6'/%3E%3Crect x='24' y='24' width='464' height='464' rx='90' fill='none' stroke='%23C9A26B' stroke-width='6'/%3E%3Ccircle cx='256' cy='256' r='175' fill='%23F3DCE0' opacity='0.55'/%3E%3Cpath d='M256 125c-28 42-28 95 0 135 28-40 28-93 0-135z' fill='%237D9B8A'/%3E%3Cpath d='M256 260c-45-18-88 2-105 42 42 15 86-3 105-42z' fill='%237D9B8A' opacity='0.85'/%3E%3Cpath d='M256 260c45-18 88 2 105 42-42 15-86-3-105-42z' fill='%237D9B8A' opacity='0.85'/%3E%3Ctext x='256' y='375' font-family='Georgia, serif' font-size='88' font-weight='bold' fill='%23C86D7E' text-anchor='middle'%3EB%26amp;N%3C/text%3E%3C/svg%3E">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' fill='%23FDF8F6'/%3E%3Ccircle cx='256' cy='256' r='185' fill='%23F3DCE0' opacity='0.6'/%3E%3Cpath d='M256 120c-28 42-28 95 0 135 28-40 28-93 0-135z' fill='%237D9B8A'/%3E%3Cpath d='M256 255c-45-18-88 2-105 42 42 15 86-3 105-42z' fill='%237D9B8A' opacity='0.85'/%3E%3Cpath d='M256 255c45-18 88 2 105 42-42 15-86-3-105-42z' fill='%237D9B8A' opacity='0.85'/%3E%3Ctext x='256' y='375' font-family='Georgia, serif' font-size='92' font-weight='bold' fill='%23C86D7E' text-anchor='middle'%3EB%26amp;N%3C/text%3E%3C/svg%3E">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Bom &amp; Natural">
+  <meta name="theme-color" content="#FDF8F6">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-cream: #FDF8F6;
+      --bg-card: #FFFFFF;
+      --bg-soft: #FAF1EE;
+      --rose-primary: #C86D7E;
+      --rose-dark: #A65263;
+      --rose-light: #F3DCE0;
+      --sage: #7D9B8A;
+      --sage-light: #E8F0EC;
+      --gold: #C9A26B;
+      --whatsapp: #25D366;
+      --whatsapp-dark: #1DA851;
+      --text-main: #3D2C2E;
+      --text-muted: #7D686B;
+      --border-soft: #EFE0DF;
+      --shadow-soft: 0 12px 32px rgba(166, 82, 99, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg-cream);
+      background-image:
+        radial-gradient(circle at 12% 8%, rgba(243, 220, 224, 0.55) 0%, transparent 42%),
+        radial-gradient(circle at 88% 85%, rgba(232, 240, 236, 0.65) 0%, transparent 45%);
+      color: var(--text-main);
+      min-height: 100vh;
+      line-height: 1.55;
+      padding-bottom: 48px;
+    }
+
+    h1, h2, h3, .serif {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+    }
+
+    .container {
+      max-width: 560px;
+      margin: 0 auto;
+      padding: 20px 16px;
+    }
+
+    header {
+      text-align: center;
+      padding: 16px 10px 20px;
+    }
+
+    .brand-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-soft);
+      color: var(--rose-dark);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 999px;
+      margin-bottom: 10px;
+      box-shadow: 0 4px 12px rgba(200, 109, 126, 0.06);
+    }
+
+    .brand-title {
+      font-size: 35px;
+      font-weight: 700;
+      color: var(--text-main);
+      letter-spacing: -0.5px;
+      line-height: 1.1;
+    }
+
+    .brand-title span {
+      color: var(--rose-primary);
+      font-style: italic;
+    }
+
+    .brand-subtitle {
+      font-size: 13.5px;
+      color: var(--text-muted);
+      margin-top: 6px;
+      max-width: 430px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .mode-tabs {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      background: var(--bg-card);
+      border: 1px solid var(--border-soft);
+      padding: 5px;
+      border-radius: 18px;
+      margin-bottom: 16px;
+      box-shadow: 0 6px 18px rgba(166, 82, 99, 0.05);
+      gap: 5px;
+    }
+
+    .mode-tab {
+      border: none;
+      background: transparent;
+      padding: 11px 6px;
+      border-radius: 14px;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .mode-tab.active {
+      background: linear-gradient(135deg, var(--rose-primary), var(--rose-dark));
+      color: #FFFFFF;
+      box-shadow: 0 4px 12px rgba(200, 109, 126, 0.25);
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-soft);
+      border-radius: 26px;
+      padding: 20px;
+      box-shadow: var(--shadow-soft);
+      margin-bottom: 18px;
+    }
+
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: var(--sage);
+      margin-bottom: 12px;
+    }
+
+    .photo-stage {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 4 / 4.1;
+      background: var(--bg-soft);
+      border: 1.5px dashed #DFC2C6;
+      border-radius: 22px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 18px;
+    }
+
+    .photo-stage img,
+    .photo-stage video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+
+    .photo-stage video { transform: scaleX(-1); }
+
+    .placeholder-icon {
+      width: 62px;
+      height: 62px;
+      border-radius: 50%;
+      background: var(--bg-card);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--rose-primary);
+      margin: 0 auto 10px;
+      box-shadow: 0 6px 18px rgba(200, 109, 126, 0.12);
+    }
+
+    .placeholder-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .placeholder-desc {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      max-width: 270px;
+      margin-top: 4px;
+    }
+
+    .zone-overlay {
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      display: none;
+      z-index: 6;
+    }
+
+    .face-oval {
+      position: absolute;
+      inset: 11% 17%;
+      border: 2px dashed rgba(255, 255, 255, 0.85);
+      border-radius: 50% 50% 46% 46%;
+      box-shadow: 0 0 0 999px rgba(61, 44, 46, 0.14);
+    }
+
+    .zone-pin {
+      position: absolute;
+      background: rgba(61, 44, 46, 0.78);
+      backdrop-filter: blur(4px);
+      color: #FFF;
+      font-size: 10px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.45);
+      transform: translate(-50%, -50%);
+    }
+
+    .scan-line {
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, #FFF, var(--rose-light), #FFF, transparent);
+      box-shadow: 0 0 18px 4px rgba(200, 109, 126, 0.85);
+      top: 0;
+      display: none;
+      z-index: 10;
+      animation: scanMove 2.2s ease-in-out infinite;
+    }
+
+    @keyframes scanMove {
+      0% { top: 6%; opacity: 0.4; }
+      50% { top: 92%; opacity: 1; }
+      100% { top: 6%; opacity: 0.4; }
+    }
+
+    .scan-badge {
+      position: absolute;
+      bottom: 14px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(61, 44, 46, 0.88);
+      backdrop-filter: blur(6px);
+      color: #FFF;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 7px 16px;
+      border-radius: 999px;
+      z-index: 12;
+      display: none;
+      white-space: nowrap;
+    }
+
+    .photo-note {
+      font-size: 12px;
+      color: var(--text-muted);
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .quiz-group {
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px dashed var(--border-soft);
+    }
+
+    .quiz-group:last-of-type {
+      border-bottom: none;
+      padding-bottom: 4px;
+      margin-bottom: 4px;
+    }
+
+    .quiz-label {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text-main);
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .quiz-hint {
+      font-size: 11.5px;
+      font-weight: 400;
+      color: var(--text-muted);
+      display: block;
+      margin-top: 1px;
+    }
+
+    .quiz-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+    }
+
+    .q-chip {
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 500;
+      background: var(--bg-soft);
+      color: var(--text-muted);
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-align: left;
+      font-family: inherit;
+    }
+
+    .q-chip.active {
+      background: var(--rose-light);
+      color: var(--rose-dark);
+      border-color: var(--rose-primary);
+      font-weight: 700;
+    }
+
+    .btn-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 12px;
+    }
+
+    .btn {
+      border: none;
+      border-radius: 14px;
+      padding: 13px 14px;
+      font-family: inherit;
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      transition: all 0.2s ease;
+      user-select: none;
+      width: 100%;
+      text-decoration: none;
+    }
+
+    .btn:active { transform: scale(0.98); }
+
+    .btn-soft {
+      background: var(--bg-soft);
+      color: var(--rose-dark);
+      border: 1px solid var(--rose-light);
+    }
+
+    .btn-soft:hover { background: var(--rose-light); }
+
+    .btn-primary {
+      width: 100%;
+      margin-top: 12px;
+      padding: 15px 20px;
+      font-size: 15px;
+      border-radius: 16px;
+      background: linear-gradient(135deg, var(--rose-primary), var(--rose-dark));
+      color: #FFFFFF;
+      box-shadow: 0 8px 20px rgba(200, 109, 126, 0.28);
+    }
+
+    .btn-share {
+      background: linear-gradient(135deg, var(--sage), #5E7D6C);
+      color: #FFFFFF;
+      box-shadow: 0 6px 16px rgba(125, 155, 138, 0.28);
+    }
+
+    .btn-whatsapp {
+      background: linear-gradient(135deg, var(--whatsapp), var(--whatsapp-dark));
+      color: #FFFFFF;
+      box-shadow: 0 6px 16px rgba(37, 211, 102, 0.25);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--text-muted);
+      border: 1px solid var(--border-soft);
+    }
+
+    .recipe-card {
+      background: linear-gradient(135deg, #FDF8F6, #F6FAF8);
+      border: 1px solid #E6D6C8;
+      border-radius: 20px;
+      padding: 16px;
+      margin-bottom: 14px;
+    }
+
+    .recipe-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .recipe-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 21px;
+      font-weight: 700;
+      color: var(--rose-dark);
+      line-height: 1.15;
+    }
+
+    .recipe-badge {
+      background: var(--sage-light);
+      color: #466654;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .recipe-list {
+      list-style: none;
+      font-size: 12.5px;
+      color: var(--text-main);
+      margin: 8px 0 10px;
+    }
+
+    .recipe-list li {
+      padding: 3px 0;
+      border-bottom: 1px dashed rgba(201, 162, 107, 0.25);
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .recipe-list li:last-child { border-bottom: none; }
+
+    .recipe-prep {
+      font-size: 12px;
+      color: var(--text-muted);
+      background: rgba(255, 255, 255, 0.85);
+      padding: 10px 12px;
+      border-radius: 12px;
+      border: 1px solid var(--border-soft);
+    }
+
+    .protocol-switcher {
+      margin-bottom: 16px;
+      background: var(--bg-cream);
+      border: 1px solid var(--border-soft);
+      border-radius: 18px;
+      padding: 12px;
+    }
+
+    .switcher-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.9px;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+      display: block;
+    }
+
+    .chips-scroll {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .focus-chip {
+      border: 1px solid var(--border-soft);
+      background: var(--bg-card);
+      color: var(--text-main);
+      font-family: inherit;
+      font-size: 11.5px;
+      font-weight: 600;
+      padding: 7px 11px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .focus-chip.active {
+      background: var(--rose-primary);
+      color: #FFFFFF;
+      border-color: var(--rose-dark);
+      box-shadow: 0 4px 10px rgba(200, 109, 126, 0.22);
+    }
+
+    #resultSection {
+      display: none;
+      animation: fadeUp 0.5s ease forwards;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(14px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .score-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      background: linear-gradient(135deg, #FDF4F5, #F5F9F7);
+      border: 1px solid var(--rose-light);
+      border-radius: 20px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+
+    .score-circle {
+      width: 74px;
+      height: 74px;
+      border-radius: 50%;
+      background: var(--bg-card);
+      border: 3px solid var(--rose-primary);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      box-shadow: 0 6px 16px rgba(200, 109, 126, 0.14);
+    }
+
+    .score-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--rose-dark);
+      line-height: 1;
+    }
+
+    .score-max {
+      font-size: 9.5px;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .badges-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-bottom: 6px;
+    }
+
+    .skin-type-badge {
+      display: inline-block;
+      background: var(--sage-light);
+      color: #4B6B59;
+      font-size: 10.5px;
+      font-weight: 700;
+      padding: 3px 9px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+    }
+
+    .skin-type-badge.rose {
+      background: var(--rose-light);
+      color: var(--rose-dark);
+    }
+
+    .visual-metrics-box {
+      background: var(--bg-cream);
+      border: 1px solid var(--border-soft);
+      border-radius: 18px;
+      padding: 14px;
+      margin-bottom: 16px;
+    }
+
+    .metric-item { margin-bottom: 11px; }
+    .metric-item:last-child { margin-bottom: 0; }
+
+    .metric-top {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12.5px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .metric-bar {
+      height: 8px;
+      background: #EFE3E1;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .metric-fill {
+      height: 100%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--rose-light), var(--rose-primary));
+      transition: width 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .metric-fill.sage {
+      background: linear-gradient(90deg, #B5CEC0, var(--sage));
+    }
+
+    .metric-fill.gold {
+      background: linear-gradient(90deg, #E7D2B5, var(--gold));
+    }
+
+    .zones-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 9px;
+      margin-bottom: 16px;
+    }
+
+    .zone-card {
+      background: var(--bg-soft);
+      border: 1px solid var(--border-soft);
+      border-radius: 15px;
+      padding: 11px 12px;
+    }
+
+    .zone-name {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.7px;
+      color: var(--rose-dark);
+      margin-bottom: 3px;
+    }
+
+    .zone-status {
+      font-size: 12.5px;
+      font-weight: 600;
+      color: var(--text-main);
+    }
+
+    .zone-detail {
+      font-size: 11.5px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .protocol-block {
+      border-radius: 20px;
+      padding: 16px;
+      margin-top: 14px;
+      border: 1px solid var(--border-soft);
+    }
+
+    .protocol-block.day {
+      background: linear-gradient(180deg, #FFFDF7 0%, #FDF8F3 100%);
+      border-color: #EFE1C6;
+    }
+
+    .protocol-block.night {
+      background: linear-gradient(180deg, #F8F6FB 0%, #F3EFF8 100%);
+      border-color: #E0D7EC;
+    }
+
+    .protocol-block.weekly {
+      background: linear-gradient(180deg, #F5F9F7 0%, #EDF5F0 100%);
+      border-color: #D3E3DA;
+    }
+
+    .protocol-block.synergy {
+      background: linear-gradient(180deg, #FFF7F5 0%, #FAF0EE 100%);
+      border-color: #E8C9C5;
+    }
+
+    .protocol-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 12px;
+      gap: 8px;
+    }
+
+    .protocol-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .protocol-tag {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+
+    .day .protocol-tag { background: #F9EED7; color: #8F6822; }
+    .night .protocol-tag { background: #E8E0F3; color: #5C477A; }
+    .weekly .protocol-tag { background: #DCEBE2; color: #3D5E4C; }
+    .synergy .protocol-tag { background: #F3DCE0; color: #A65263; }
+
+    .step-card {
+      display: flex;
+      gap: 11px;
+      padding: 11px 12px;
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      margin-bottom: 8px;
+    }
+
+    .step-card:last-child { margin-bottom: 0; }
+
+    .step-num {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: var(--rose-light);
+      color: var(--rose-dark);
+      font-size: 12px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .night .step-num { background: #E5DCF2; color: #5C477A; }
+    .weekly .step-num { background: #D8EAE0; color: #3D5E4C; }
+    .synergy .step-num { background: #F3DCE0; color: #A65263; }
+
+    .step-title {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .step-desc {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .natural-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .natural-card {
+      background: linear-gradient(135deg, #FAF3F0, #F4F8F5);
+      border: 1px solid #E5D4C0;
+      border-radius: 16px;
+      padding: 14px;
+    }
+
+    .natural-card-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--rose-dark);
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .natural-card p {
+      font-size: 12.5px;
+      color: var(--text-main);
+    }
+
+    .warning-box {
+      background: #FFF9EC;
+      border: 1px solid #EBD49E;
+      border-radius: 14px;
+      padding: 12px 14px;
+      font-size: 12px;
+      color: #6E5322;
+      margin-top: 12px;
+    }
+
+    .actives-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    .active-pill {
+      background: var(--bg-card);
+      border: 1px solid var(--gold);
+      color: #8A6838;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(45, 30, 32, 0.65);
+      backdrop-filter: blur(4px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 18px;
+      z-index: 100;
+    }
+
+    .modal-box {
+      background: var(--bg-card);
+      border-radius: 24px;
+      max-width: 400px;
+      width: 100%;
+      padding: 18px;
+      text-align: center;
+      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
+    }
+
+    .story-preview {
+      width: 100%;
+      max-height: 62vh;
+      object-fit: contain;
+      border-radius: 16px;
+      border: 1px solid var(--border-soft);
+      margin: 10px 0;
+    }
+
+    .share-textarea {
+      width: 100%;
+      height: 190px;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 14px;
+      border: 1px solid var(--border-soft);
+      background: var(--bg-cream);
+      font-family: inherit;
+      font-size: 12.5px;
+      color: var(--text-main);
+      resize: none;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 11.5px;
+      color: var(--text-muted);
+      margin-top: 24px;
+      padding: 0 16px;
+    }
+
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div class="brand-badge">
+        <span>🌿</span> Cosmética Natural &amp; Autocuidado
+      </div>
+      <h1 class="brand-title">Bom &amp; <span>Natural</span></h1>
+      <p class="brand-subtitle">Avaliação por foto ou questionário, com tipos de sabonetes, hidratantes, óleos essenciais e terapias naturais.</p>
+    </header>
+
+    <div class="mode-tabs">
+      <button type="button" class="mode-tab active" id="modePhotoBtn" onclick="switchInputMode('photo')">
+        📸 Análise por Foto
+      </button>
+      <button type="button" class="mode-tab" id="modeQuizBtn" onclick="switchInputMode('quiz')">
+        📋 Questionário
+      </button>
+      <button type="button" class="mode-tab" id="modeRecipesBtn" onclick="switchInputMode('recipes')">
+        🧪 Receitas Naturais
+      </button>
+    </div>
+
+    <div class="card" id="photoCard">
+      <div class="section-label">
+        <span>✦</span> Captura &amp; Mapeamento Facial por Foto
+      </div>
+
+      <div class="photo-stage" id="photoStage">
+        <div id="placeholderContent">
+          <div class="placeholder-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+              <circle cx="12" cy="13" r="4"></circle>
+            </svg>
+          </div>
+          <div class="placeholder-title">Analise Sua Pele pela Foto</div>
+          <p class="placeholder-desc">Tire uma selfie limpa em luz natural e veja o diagnóstico detalhado das zonas do seu rosto.</p>
+        </div>
+
+        <video id="liveVideo" autoplay playsinline muted class="hidden"></video>
+        <img id="previewImg" alt="Foto do rosto" class="hidden" />
+
+        <div class="zone-overlay" id="zoneOverlay">
+          <div class="face-oval"></div>
+          <span class="zone-pin" id="pinForehead" style="top: 23%; left: 50%;">Zona T: —</span>
+          <span class="zone-pin" id="pinEyes" style="top: 41%; left: 50%;">Olhos: —</span>
+          <span class="zone-pin" id="pinCheeks" style="top: 57%; left: 26%;">Bochecha: —</span>
+          <span class="zone-pin" id="pinChin" style="top: 76%; left: 50%;">Queixo: —</span>
+        </div>
+
+        <div class="scan-line" id="scanLine"></div>
+        <div class="scan-badge" id="scanBadge">Mapeando zonas faciais...</div>
+      </div>
+
+      <input type="file" id="filePickerInput" accept="image/*" style="position:fixed; left:-9999px; opacity:0;" />
+
+      <div class="btn-grid" id="mainPhotoButtons">
+        <button type="button" class="btn btn-soft" onclick="openSelfieCamera()">
+          📷 Tirar Selfie
+        </button>
+        <button type="button" class="btn btn-soft" onclick="openGalleryPicker()">
+          🖼️ Escolher Foto
+        </button>
+      </div>
+
+      <div class="btn-grid hidden" id="liveCameraButtons">
+        <button type="button" class="btn btn-primary" style="margin-top:0;" onclick="snapLivePhoto()">
+          📸 Capturar Foto
+        </button>
+        <button type="button" class="btn btn-outline" onclick="closeLiveCamera()">
+          Cancelar
+        </button>
+      </div>
+
+      <button type="button" class="btn btn-primary hidden" id="analyzePhotoBtn" onclick="analyzePhotoDetailed()">
+        🔍 Analisar Minha Pele pela Foto
+      </button>
+
+      <p class="photo-note" id="photoStatusNote">Não quer tirar foto agora? Toque na aba <strong>Questionário</strong> acima.</p>
+    </div>
+
+    <div class="card hidden" id="quizCard">
+      <div class="section-label">
+        <span>✦</span> Questionário de Avaliação da Pele
+      </div>
+
+      <div class="quiz-group">
+        <span class="quiz-label">
+          1. Fase atual da sua pele:
+          <span class="quiz-hint">Ajuda a definir o nível de nutrição e estímulo de colágeno</span>
+        </span>
+        <div class="quiz-chips">
+          <button type="button" class="q-chip active" data-val="jovem" onclick="selectQuizChip(this, 'ageStage')">Pele Jovem (até 28 anos)</button>
+          <button type="button" class="q-chip" data-val="adulta" onclick="selectQuizChip(this, 'ageStage')">Pele Adulta (29 a 44 anos)</button>
+          <button type="button" class="q-chip" data-val="madura" onclick="selectQuizChip(this, 'ageStage')">Pele Madura (45+ anos)</button>
+        </div>
+      </div>
+
+      <div class="quiz-group">
+        <span class="quiz-label">
+          2. Como você sente sua pele ao longo do dia?
+          <span class="quiz-hint">Comportamento natural horas após lavar o rosto</span>
+        </span>
+        <div class="quiz-chips">
+          <button type="button" class="q-chip active" data-val="mista" onclick="selectQuizChip(this, 'skinType')">Mista (brilho só na zona T)</button>
+          <button type="button" class="q-chip" data-val="oleosa" onclick="selectQuizChip(this, 'skinType')">Oleosa / Poros dilatados</button>
+          <button type="button" class="q-chip" data-val="seca" onclick="selectQuizChip(this, 'skinType')">Seca / Repuxando / Sem viço</button>
+          <button type="button" class="q-chip" data-val="sensivel" onclick="selectQuizChip(this, 'skinType')">Sensível / Fina / Vermelhidão</button>
+        </div>
+      </div>
+
+      <div class="quiz-group">
+        <span class="quiz-label">
+          3. Qual é o seu principal objetivo de tratamento?
+          <span class="quiz-hint">Escolha a condição que mais deseja tratar hoje</span>
+        </span>
+        <div class="quiz-chips">
+          <button type="button" class="q-chip active" data-val="rejuvenescimento" onclick="selectQuizChip(this, 'concern')">✨ Rejuvenescer (Rugas &amp; Pele Cansada)</button>
+          <button type="button" class="q-chip" data-val="linhas" onclick="selectQuizChip(this, 'concern')">🌸 Rugas Profundas &amp; Ressecamento</button>
+          <button type="button" class="q-chip" data-val="cansada" onclick="selectQuizChip(this, 'concern')">⚡ Pele Cansada, Opaca &amp; Olheiras</button>
+          <button type="button" class="q-chip" data-val="melasma" onclick="selectQuizChip(this, 'concern')">🟤 Melasma &amp; Manchas de Sol</button>
+          <button type="button" class="q-chip" data-val="espinhas" onclick="selectQuizChip(this, 'concern')">🌿 Espinhas, Cravos &amp; Oleosidade</button>
+          <button type="button" class="q-chip" data-val="mista" onclick="selectQuizChip(this, 'concern')">💧 Equilíbrio &amp; Luminosidade Natural</button>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-primary" onclick="analyzeFromQuiz()">
+        🌿 Gerar Meu Tratamento Natural
+      </button>
+    </div>
+
+    <div class="card hidden" id="recipesCard">
+      <div class="section-label">
+        <span>✦</span> Receitas Naturais &amp; Tipos de Formulação
+      </div>
+      <p style="font-size: 12.5px; color: var(--text-muted); margin-bottom: 14px;">
+        Sugestões de sabonetes, hidratantes e óleos essenciais por tipo de necessidade da pele:
+      </p>
+
+      <div class="recipe-card">
+        <div class="recipe-header">
+          <div class="recipe-title">1. Bastão Nutritivo de Rosa Mosqueta &amp; Karité</div>
+          <span class="recipe-badge">Rugas &amp; Viço</span>
+        </div>
+        <ul class="recipe-list">
+          <li><span>Base Glicerinada Vegetal</span><strong>65%</strong></li>
+          <li><span>Manteiga de Karité (hidratante nutritiva)</span><strong>12%</strong></li>
+          <li><span>Óleo de Rosa Mosqueta</span><strong>8%</strong></li>
+          <li><span>Extrato Glicólico de Arroz</span><strong>6%</strong></li>
+          <li><span>Dolomita Pura</span><strong>5%</strong></li>
+          <li><span>Argila Branca</span><strong>2%</strong></li>
+          <li><span>Vitamina E + OE Olíbano / Palmarosa</span><strong>2%</strong></li>
+        </ul>
+        <div class="recipe-prep">
+          <strong>Modo de preparo:</strong> Derreta a base glicerinada com a manteiga de karité em banho-maria suave. Retire do fogo, incorpore os óleos, o extrato de arroz e a dolomita/argila previamente dispersos, finalizando com o óleo essencial morno.
+        </div>
+      </div>
+
+      <div class="recipe-card">
+        <div class="recipe-header">
+          <div class="recipe-title">2. Sabonete Suave de Cúrcuma, Mel &amp; Dolomita</div>
+          <span class="recipe-badge">Manchas &amp; Tom</span>
+        </div>
+        <ul class="recipe-list">
+          <li><span>Base Glicerinada Vegetal</span><strong>82%</strong></li>
+          <li><span>Extrato Glicólico de Aveia</span><strong>5%</strong></li>
+          <li><span>Mel Puro</span><strong>4%</strong></li>
+          <li><span>Óleo de Semente de Uva</span><strong>4%</strong></li>
+          <li><span>Dolomita + Argila Branca</span><strong>3%</strong></li>
+          <li><span>Cúrcuma em Pó (Açafrão puro)</span><strong>1%</strong></li>
+          <li><span>Vitamina E + OE Palmarosa ou Lavanda</span><strong>1%</strong></li>
+        </ul>
+        <div class="recipe-prep">
+          <strong>Modo de preparo:</strong> Derreta a base sem ferver, adicione o óleo de semente de uva, mel e extrato de aveia. Misture a cúrcuma e argilas com um pouco do extrato para não empelotar, incorpore e desenforme após 4h.
+        </div>
+      </div>
+
+      <div class="recipe-card">
+        <div class="recipe-header">
+          <div class="recipe-title">3. Sabonete Purificante de Argila Verde &amp; Melaleuca</div>
+          <span class="recipe-badge">Espinhas &amp; Oleosidade</span>
+        </div>
+        <ul class="recipe-list">
+          <li><span>Base Glicerinada Vegetal</span><strong>85%</strong></li>
+          <li><span>Argila Verde Pura</span><strong>5%</strong></li>
+          <li><span>Extrato de Babosa (Aloe Vera) ou Aveia</span><strong>5%</strong></li>
+          <li><span>Óleo de Semente de Uva (hidratante leve)</span><strong>3%</strong></li>
+          <li><span>Óleo Essencial de Melaleuca (Tea Tree)</span><strong>1,5%</strong></li>
+          <li><span>Vitamina E</span><strong>0,5%</strong></li>
+        </ul>
+        <div class="recipe-prep">
+          <strong>Modo de preparo:</strong> Disperse a argila verde no extrato glicólico antes de unir à base derretida. Acrescente o óleo essencial de melaleuca abaixo de 45°C para preservar suas propriedades.
+        </div>
+      </div>
+
+      <div class="recipe-card">
+        <div class="recipe-header">
+          <div class="recipe-title">4. Hidratante Aquoso Calmante (Hidrolato &amp; Pantenol)</div>
+          <span class="recipe-badge">Pele Cansada &amp; Hidratação</span>
+        </div>
+        <ul class="recipe-list">
+          <li><span>Hidrolato de Camomila ou Água de Rosas</span><strong>86%</strong></li>
+          <li><span>Extrato Glicólico de Aveia ou Aloe Vera</span><strong>6%</strong></li>
+          <li><span>Glicerina Vegetal (hidratante umectante)</span><strong>3%</strong></li>
+          <li><span>Pantenol (Pró-Vitamina B5)</span><strong>2%</strong></li>
+          <li><span>Solubilizante Natural + OE Lavanda ou Palmarosa</span><strong>2%</strong></li>
+          <li><span>Conservante Natural</span><strong>1%</strong></li>
+        </ul>
+        <div class="recipe-prep">
+          <strong>Modo de preparo:</strong> Misture o óleo essencial no solubilizante até ficar translúcido. Adicione o hidrolato, a glicerina vegetal, o extrato, o pantenol e o conservante.
+        </div>
+      </div>
+
+      <div class="recipe-card" style="margin-bottom:0;">
+        <div class="recipe-header">
+          <div class="recipe-title">5. Sabonete Cremoso de Argila Rosa &amp; Karité</div>
+          <span class="recipe-badge">Rugas &amp; Pele Madura</span>
+        </div>
+        <ul class="recipe-list">
+          <li><span>Base Glicerinada Vegetal</span><strong>80%</strong></li>
+          <li><span>Manteiga de Karité</span><strong>6%</strong></li>
+          <li><span>Óleo de Rosa Mosqueta</span><strong>5%</strong></li>
+          <li><span>Argila Rosa + Dolomita</span><strong>4%</strong></li>
+          <li><span>Extrato de Aveia</span><strong>3,5%</strong></li>
+          <li><span>Vitamina E + OE Gerânio ou Olíbano</span><strong>1,5%</strong></li>
+        </ul>
+        <div class="recipe-prep">
+          <strong>Modo de preparo:</strong> Derreta a base com a manteiga de karité, adicione o óleo de rosa mosqueta, a argila rosa diluída no extrato de aveia e finalize com vitamina E e óleo essencial.
+        </div>
+      </div>
+    </div>
+
+    <div id="resultSection">
+      <div class="card">
+        <div class="section-label">
+          <span>✦</span> <span id="resultSourceTitle">Laudo Visual Detalhado</span>
+        </div>
+
+        <div class="score-header">
+          <div>
+            <div class="badges-row">
+              <span class="skin-type-badge" id="resDetectedSkin">Pele Mista</span>
+              <span class="skin-type-badge rose" id="resDetectedFocus">Foco Detectado</span>
+            </div>
+            <h2 id="resHeadline" style="font-size: 23px; line-height: 1.15;">Equilíbrio &amp; Renovação</h2>
+            <p id="resSummary" style="font-size: 12.5px; color: var(--text-muted); margin-top: 4px;"></p>
+          </div>
+          <div class="score-circle">
+            <span class="score-num" id="resScore">82</span>
+            <span class="score-max">VITALIDADE</span>
+          </div>
+        </div>
+
+        <div class="protocol-switcher">
+          <span class="switcher-label">🎯 Protocolo Ativo (toque para alternar):</span>
+          <div class="chips-scroll" id="protocolChips">
+            <button type="button" class="focus-chip" data-key="rejuvenescimento" onclick="switchProtocol('rejuvenescimento')">✨ Rejuvenescer (Rugas &amp; Cansada)</button>
+            <button type="button" class="focus-chip" data-key="linhas" onclick="switchProtocol('linhas')">🌸 Rugas &amp; Nutrição Profunda</button>
+            <button type="button" class="focus-chip" data-key="cansada" onclick="switchProtocol('cansada')">⚡ Pele Cansada &amp; Olheiras</button>
+            <button type="button" class="focus-chip" data-key="melasma" onclick="switchProtocol('melasma')">🟤 Melasma &amp; Manchas</button>
+            <button type="button" class="focus-chip" data-key="espinhas" onclick="switchProtocol('espinhas')">🌿 Espinhas &amp; Oleosidade</button>
+            <button type="button" class="focus-chip" data-key="mista" onclick="switchProtocol('mista')">💧 Equilíbrio &amp; Viço</button>
+          </div>
+        </div>
+
+        <div class="visual-metrics-box">
+          <div class="metric-item">
+            <div class="metric-top">
+              <span>💧 Hidratação &amp; Luminosidade Superficial</span>
+              <span id="valLum">76%</span>
+            </div>
+            <div class="metric-bar"><div class="metric-fill" id="barLum" style="width: 0%"></div></div>
+          </div>
+
+          <div class="metric-item">
+            <div class="metric-top">
+              <span>✨ Uniformidade do Tom (Ausência de Manchas)</span>
+              <span id="valEven">72%</span>
+            </div>
+            <div class="metric-bar"><div class="metric-fill sage" id="barEven" style="width: 0%"></div></div>
+          </div>
+
+          <div class="metric-item">
+            <div class="metric-top">
+              <span>🌸 Acalmia (Baixa Vermelhidão / Inflamação)</span>
+              <span id="valCalm">80%</span>
+            </div>
+            <div class="metric-bar"><div class="metric-fill gold" id="barCalm" style="width: 0%"></div></div>
+          </div>
+
+          <div class="metric-item">
+            <div class="metric-top">
+              <span>🌿 Firmeza, Colágeno &amp; Suavidade de Linhas</span>
+              <span id="valTex">78%</span>
+            </div>
+            <div class="metric-bar"><div class="metric-fill" id="barTex" style="width: 0%"></div></div>
+          </div>
+        </div>
+
+        <div id="zonesBlock">
+          <div class="section-label">
+            <span>✦</span> Leitura por Região do Rosto
+          </div>
+          <div class="zones-grid">
+            <div class="zone-card">
+              <div class="zone-name">Testa &amp; Zona T</div>
+              <div class="zone-status" id="zoneTStatus">Brilho moderado</div>
+              <div class="zone-detail" id="zoneTDetail">Produção sebácea concentrada no centro.</div>
+            </div>
+            <div class="zone-card">
+              <div class="zone-name">Maçãs &amp; Bochechas</div>
+              <div class="zone-status" id="zoneCheekStatus">Tom uniforme</div>
+              <div class="zone-detail" id="zoneCheekDetail">Textura delicada pedindo hidratação leve.</div>
+            </div>
+            <div class="zone-card">
+              <div class="zone-name">Área dos Olhos</div>
+              <div class="zone-status" id="zoneEyeStatus">Sinais leves</div>
+              <div class="zone-detail" id="zoneEyeDetail">Pede drenagem suave e antioxidantes.</div>
+            </div>
+            <div class="zone-card">
+              <div class="zone-name">Queixo &amp; Contorno</div>
+              <div class="zone-status" id="zoneChinStatus">Equilibrado</div>
+              <div class="zone-detail" id="zoneChinDetail">Boa sustentação e poros discretos.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="protocol-block day">
+          <div class="protocol-header">
+            <div class="protocol-title">☀️ Tratamento Diurno</div>
+            <span class="protocol-tag">Proteção &amp; Estímulo</span>
+          </div>
+          <div id="dayStepsContainer"></div>
+        </div>
+
+        <div class="protocol-block night">
+          <div class="protocol-header">
+            <div class="protocol-title">🌙 Tratamento Noturno</div>
+            <span class="protocol-tag">Regeneração &amp; Colágeno</span>
+          </div>
+          <div id="nightStepsContainer"></div>
+        </div>
+
+        <div class="protocol-block weekly">
+          <div class="protocol-header">
+            <div class="protocol-title">🧖‍♀️ Ritual Semanal</div>
+            <span class="protocol-tag">Argilas &amp; Máscaras</span>
+          </div>
+          <div id="weeklyStepsContainer"></div>
+        </div>
+
+        <div class="protocol-block synergy">
+          <div class="protocol-header">
+            <div class="protocol-title">✨ Terapias Potencializadoras</div>
+            <span class="protocol-tag">Resultado Infalível</span>
+          </div>
+          <div id="synergyStepsContainer"></div>
+        </div>
+
+        <div class="natural-grid">
+          <div class="natural-card">
+            <div class="natural-card-title">🧼 Tipo de Sabonete &amp; Limpeza</div>
+            <p id="soapRecommendation"></p>
+          </div>
+
+          <div class="natural-card">
+            <div class="natural-card-title">💧 Tipos de Hidratantes &amp; Óleos Essenciais</div>
+            <p id="oilRecommendation"></p>
+            <div class="actives-tags" id="activesList"></div>
+          </div>
+
+          <div class="natural-card">
+            <div class="natural-card-title">🌸 Combinação Sugerida por Tipo de Ativo</div>
+            <p id="brandMatch"></p>
+          </div>
+        </div>
+
+        <div class="warning-box" id="avoidWarning"></div>
+
+        <div class="btn-grid" style="margin-top: 16px;">
+          <button type="button" class="btn btn-share" onclick="shareDiagnosisResult()">
+            📤 Compartilhar
+          </button>
+          <button type="button" class="btn btn-primary" style="margin-top:0;" onclick="generateStoryCard()">
+            📲 Cartão Stories
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <strong>Bom &amp; Natural</strong> • Saboaria &amp; Cosmética Botânica Artesanal.<br/>
+      Avaliação cosmética educativa. Em casos de melasma resistente ou acne inflamatória severa, consulte um dermatologista.
+    </footer>
+  </div>
+
+  <div class="modal-backdrop" id="storyModal" onclick="if(event.target===this) closeStoryModal()">
+    <div class="modal-box">
+      <h3 style="font-size: 24px; color: var(--rose-dark);">Laudo da Sua Pele</h3>
+      <p style="font-size: 12px; color: var(--text-muted);">Pronto para salvar ou compartilhar nos Stories</p>
+      <img id="storyImage" class="story-preview" alt="Laudo da Pele" />
+      <div class="btn-grid">
+        <a id="downloadStoryBtn" download="analise-pele-bom-e-natural.png" class="btn btn-primary" style="margin-top:0;">
+          ⬇️ Salvar Imagem
+        </a>
+        <button type="button" class="btn btn-outline" onclick="closeStoryModal()">
+          Fechar
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-backdrop" id="shareModal" onclick="if(event.target===this) closeShareModal()">
+    <div class="modal-box">
+      <h3 style="font-size: 24px; color: var(--rose-dark);">Compartilhar Resultado</h3>
+      <p style="font-size: 12px; color: var(--text-muted);">Envie seu protocolo pelo WhatsApp ou copie o texto abaixo:</p>
+      <textarea id="shareTextArea" class="share-textarea" readonly></textarea>
+      <div class="btn-grid">
+        <a id="shareWhatsLink" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+          💬 WhatsApp
+        </a>
+        <button type="button" class="btn btn-soft" onclick="copyShareText()">
+          📋 Copiar Texto
+        </button>
+      </div>
+      <button type="button" class="btn btn-outline" style="margin-top:10px;" onclick="closeShareModal()">
+        Fechar
+      </button>
+    </div>
+  </div>
+
+  <canvas id="hiddenCanvas" class="hidden"></canvas>
+
+  <script>
+    var state = {
+      inputMode: 'photo',
+      hasPhoto: false,
+      currentKey: 'rejuvenescimento',
+      quiz: {
+        ageStage: 'jovem',
+        skinType: 'mista',
+        concern: 'rejuvenescimento'
+      },
+      diagnosis: null,
+      mediaStream: null
+    };
+
+    var protocols = {
+      rejuvenescimento: {
+        skinLabel: 'Pele Madura / Cansada com Rugas',
+        badge: 'Rejuvenescimento, Rugas & Viço',
+        headline: 'Revitalização Celular, Colágeno & Firmeza Natural',
+        summary: 'Protocolo voltado a suavizar rugas e recuperar o viço unindo sabonetes cremosos, hidratantes nutritivos e óleos essenciais regeneradores.',
+        morning: [
+          { title: 'Limpeza com Sabonete Cremoso de Argila Rosa e Karité', desc: 'Lave com água fria (ativa a circulação) e um sabonete cremoso de argila rosa com manteiga de karité e extrato de aveia, sem ressecar.' },
+          { title: 'Hidratante Aquoso Calmante (Hidrolato & Pantenol)', desc: 'Aplique um hidratante leve à base de hidrolato de camomila ou água de rosas com pantenol. Se houver cansaço nos olhos, faça compressa fria de camomila por 2 minutos.' },
+          { title: 'Hidratante Nutritivo + Protetor Solar FPS 50+', desc: 'Use gel de babosa ou emulsão leve com óleo vegetal de semente de uva e finalize com protetor solar FPS 50+ para proteger o colágeno.' }
+        ],
+        night: [
+          { title: 'Limpeza Nutritiva com Óleo Vegetal', desc: 'Massageie óleo vegetal de amêndoas doces ou abacate para remover impurezas suavemente e retire com toalha macia úmida morna.' },
+          { title: 'Blend Noturno com Óleos Essenciais de Olíbano ou Gerânio', desc: 'Misture 4 gotas de óleo vegetal de rosa mosqueta + 2 gotas de óleo de café verde com 1 gota de óleo essencial de olíbano (frankincense) ou gerânio.' },
+          { title: 'Hidratante em Bastão ou Creme Nutritivo nas Rugas', desc: 'Aplique o blend com movimentos ascendentes por 3 minutos e finalize selando as linhas finas com um hidratante em bastão ou creme rico em manteiga de karité.' }
+        ],
+        weekly: [
+          { title: 'Máscara de Argila Vermelha e Argila Rosa (1x por semana)', desc: 'Misture 1 colher de argila vermelha, 1 de argila rosa, 3 gotas de óleo de rosa mosqueta e hidrolato de camomila. Retire após 12 minutos.' },
+          { title: 'Esfoliação Suave com Aveia e Mel (Quinzenal)', desc: 'Misture aveia fina com mel puro e massageie com leveza por 1 minuto para renovar a superfície.' }
+        ],
+        synergy: [
+          { title: 'Massagem Facial Ascendente e Gua Sha (3 min/noite)', desc: 'Faça movimentos firmes de baixo para cima no pescoço, contorno e maçãs do rosto para estimular a firmeza e drenar.' },
+          { title: 'Compressa ou Cubo de Chá Verde Gelado', desc: 'Aplique compressa fria ou cubo de gelo de chá verde envolto em gaze por 1 minuto pela manhã para dar viço imediato.' },
+          { title: 'Hidratação e Antioxidantes no Dia a Dia', desc: 'Mantenha boa ingestão de água e inclua fontes de vitamina C e antioxidantes naturais na alimentação.' }
+        ],
+        soap: 'Sabonete cremoso de Argila Rosa e Manteiga de Karité (com extrato de aveia), alternado com limpeza noturna em óleo vegetal de amêndoas ou abacate.',
+        oil: 'Hidratantes: emulsões ou bastões com manteiga de karité, pantenol, glicerina vegetal e aloe vera. Óleos essenciais: olíbano (frankincense), gerânio e palmarosa (sempre diluídos em óleo vegetal de rosa mosqueta ou semente de uva).',
+        actives: ['Sabonete Argila Rosa & Karité', 'Bastão Karité & Rosa Mosqueta', 'Hidratante com Pantenol', 'OE Olíbano', 'OE Gerânio', 'Óleo de Rosa Mosqueta'],
+        brand: 'Sabonete cremoso de argila rosa e karité + hidratante aquoso com pantenol e hidrolato de camomila + óleo essencial de olíbano ou gerânio diluído em rosa mosqueta à noite.',
+        avoid: '⚠️ O que evitar: Não lave o rosto com água quente, evite sabonetes adstringentes ou argila verde pura no rosto inteiro — eles ressecam e marcam mais as rugas.'
+      },
+
+      espinhas: {
+        skinLabel: 'Pele Oleosa / Acneica',
+        badge: 'Tendência a Espinhas & Cravos',
+        headline: 'Limpeza Purificante, Equilíbrio do Sebo & Acalmia',
+        summary: 'Protocolo para controlar o excesso de oleosidade e desinflamar poros sem efeito rebote, combinando sabonetes purificantes, hidratantes em gel e óleos essenciais antissépticos.',
+        morning: [
+          { title: 'Sabonete Purificante de Argila Verde e Melaleuca', desc: 'Lave com água fria usando sabonete de argila verde com óleo essencial de melaleuca (tea tree), enxaguando por 30 segundos sem esfregar com força.' },
+          { title: 'Hidratante Leve em Gel ou Loção Oil-Free', desc: 'Aplique gel de aloe vera ou hidratante aquoso oil-free com extrato de aveia ou camomila para manter a pele hidratada sem pesar.' },
+          { title: 'Protetor Solar Toque Seco', desc: 'Finalize com protetor solar oil-free para evitar que as marcas das espinhas escureçam com o sol.' }
+        ],
+        night: [
+          { title: 'Limpeza Suave com Sabonete de Argila Verde ou Própolis', desc: 'Remova resíduos do dia e protetor solar com sabonete purificante suave ou loção de limpeza leve.' },
+          { title: 'Hidratante Leve Não Comedogênico', desc: 'Aplique 2 gotas de óleo vegetal de jojoba ou semente de uva (leves e equilibrantes) ou gel hidratante calmante.' },
+          { title: 'Cuidado Pontual com Óleo Essencial de Melaleuca', desc: 'Aplique 1 gota de óleo essencial de melaleuca (ou copaíba) diluída em óleo carreador apenas sobre os pontos inflamados.' }
+        ],
+        weekly: [
+          { title: 'Máscara de Argila Verde com Camomila (1x por semana)', desc: 'Misture argila verde com chá ou hidrolato de camomila frio e retire após 10 minutos antes de secar por completo.' },
+          { title: 'Vaporização Suave de Camomila (Quinzenal)', desc: 'Aproxime o rosto do vapor morno de camomila por 5 minutos para amolecer os cravos antes da máscara.' }
+        ],
+        synergy: [
+          { title: 'Higiene de Toalhas e Fronhas', desc: 'Use toalha limpa exclusiva para o rosto e troque a fronha regularmente.' },
+          { title: 'Compressa Gelada de Camomila ou Chá Verde', desc: 'Ajuda a reduzir o vermelhão e o inchaço local sem agredir a pele.' },
+          { title: 'Evitar Atrito e Espremer', desc: 'Não esprema espinhas nem apoie o rosto nas mãos com frequência.' }
+        ],
+        soap: 'Sabonete purificante de Argila Verde e Óleo Essencial de Melaleuca (ou sabonete suave de própolis/enxofre vegetal), sem manteigas pesadas.',
+        oil: 'Hidratantes: gel de aloe vera, loções oil-free ou óleos vegetais leves (jojoba e semente de uva). Óleos essenciais: melaleuca (tea tree) e lavanda (sempre diluídos).',
+        actives: ['Sabonete Argila Verde & Melaleuca', 'Gel de Aloe Vera', 'Óleo de Jojoba', 'OE Melaleuca', 'OE Lavanda', 'Argila Verde'],
+        brand: 'Sabonete purificante de argila verde e melaleuca + hidratante em gel oil-free com aloe vera + óleo essencial de melaleuca diluído nos pontos específicos.',
+        avoid: '⚠️ O que evitar: Não esprema espinhas, não use óleos densos ou manteigas pesadas no rosto e evite lavar com água quente.'
+      },
+
+      melasma: {
+        skinLabel: 'Pele com Manchas / Melasma',
+        badge: 'Manchas & Assimetria de Tom',
+        headline: 'Uniformização Gradual, Calmante & Proteção Diária',
+        summary: 'Protocolo suave para peles com manchas e tendência a melasma, priorizando limpeza delicada, hidratação calmante, óleos essenciais suaves e fotoproteção rigorosa.',
+        morning: [
+          { title: 'Sabonete Suave de Aveia, Camomila ou Argila Branca', desc: 'Lave com água fria e sabonete suave de argila branca com aveia ou calêndula, sem atrito ou buchas.' },
+          { title: 'Hidratante Calmante com Pantenol e Niacinamida/Arroz', desc: 'Aplique hidratante facial suave com ação calmante e uniformizadora para manter a barreira íntegra.' },
+          { title: 'Protetor Solar com Cor FPS 50+ (Obrigatório)', desc: 'Aplique protetor solar de amplo espectro com cor, que ajuda a proteger contra radiação UV e luz visível.' }
+        ],
+        night: [
+          { title: 'Limpeza Delicada Noturna', desc: 'Remova o protetor solar com óleo vegetal leve (semente de uva ou girassol) e sabonete suave de argila branca ou dolomita.' },
+          { title: 'Óleo Vegetal de Rosa Mosqueta + OE Palmarosa ou Lavanda', desc: 'Aplique 3 gotas de óleo de rosa mosqueta com 1 gota de óleo essencial de palmarosa ou lavanda (bem diluído) nas áreas com manchas.' },
+          { title: 'Hidratante Nutritivo ou em Bastão Uniformizador', desc: 'Finalize com creme ou bastão hidratante com extrato de arroz, dolomita e manteiga de karité.' }
+        ],
+        weekly: [
+          { title: 'Máscara de Dolomita e Argila Branca Fria (1 a 2x por semana)', desc: 'Misture dolomita e argila branca com hidrolato ou soro fisiológico gelado e deixe agir por 12 a 15 minutos.' },
+          { title: 'Compressa Fria de Camomila', desc: 'Acalma a pele após exposição a ambientes quentes ou telas.' }
+        ],
+        synergy: [
+          { title: 'Controle de Calor no Dia a Dia', desc: 'Evite exposição prolongada ao calor intenso e ao vapor quente diretamente no rosto.' },
+          { title: 'Reaplicação do Protetor Solar', desc: 'Reaplique o protetor solar durante o dia para manter a proteção contra manchas.' },
+          { title: 'Paciência e Constância', desc: 'O clareamento natural é gradual e depende da constância diária na fotoproteção e na hidratação.' }
+        ],
+        soap: 'Sabonete suave de Argila Branca e Dolomita (com extrato de aveia ou arroz), sem esfoliantes abrasivos.',
+        oil: 'Hidratantes: cremes ou bastões com extrato de arroz, pantenol, glicerina e manteiga de karité. Óleos essenciais: palmarosa, lavanda ou gerânio (sempre diluídos em óleo vegetal de rosa mosqueta).',
+        actives: ['Sabonete Argila Branca & Dolomita', 'Bastão Arroz & Karité', 'Hidratante Calmante', 'OE Palmarosa', 'OE Lavanda', 'Óleo de Rosa Mosqueta'],
+        brand: 'Sabonete suave de argila branca e dolomita + hidratante calmante com pantenol + óleo de rosa mosqueta com óleo essencial de palmarosa ou lavanda à noite.',
+        avoid: '⚠️ Atenção: Evite esfoliantes agressivos, receitas caseiras com limão e vapor quente no rosto, pois podem intensificar as manchas.'
+      },
+
+      cansada: {
+        skinLabel: 'Pele Desidratada / Cansada',
+        badge: 'Opacidade & Sinais de Fadiga',
+        headline: 'Revitalização, Hidratação & Luminosidade',
+        summary: 'Protocolo para devolver o viço e reduzir o aspecto cansado e as olheiras, combinando limpeza suave, hidratantes refrescantes e óleos essenciais revigorantes.',
+        morning: [
+          { title: 'Sabonete Suave de Argila Rosa ou Aveia com Água Fria', desc: 'Lave com água fria e sabonete suave de argila rosa ou aveia para despertar a pele sem ressecar.' },
+          { title: 'Compressa Gelada nos Olhos + Hidratante Aquoso', desc: 'Aplique compressa fria de camomila na área dos olhos por 2 a 3 minutos e use hidratante leve com pantenol e glicerina.' },
+          { title: 'Hidratante Diário + Protetor Solar', desc: 'Finalize com hidratante facial leve e protetor solar.' }
+        ],
+        night: [
+          { title: 'Limpeza Relaxante Noturna', desc: 'Remova impurezas com sabonete suave ou óleo vegetal leve.' },
+          { title: 'Massagem Facial com Óleo Vegetal e OE Lavanda ou Alecrim', desc: 'Massageie o rosto suavemente com óleo de semente de uva ou café verde associado a 1 gota diluída de óleo essencial de lavanda ou alecrim.' },
+          { title: 'Hidratação Noturna no Rosto e Contorno dos Olhos', desc: 'Aplique hidratante nutritivo ou bastão hidratante com batidinhas leves ao redor dos olhos.' }
+        ],
+        weekly: [
+          { title: 'Máscara de Argila Rosa (1 a 2x por semana)', desc: 'Aplique argila rosa com hidrolato de camomila ou água de rosas por 10 a 12 minutos para recuperar o viço.' },
+          { title: 'Compressa Revitalizante de Chá Verde Gelado', desc: 'Ajuda a reduzir o aspecto de cansaço e inchaço matinal.' }
+        ],
+        synergy: [
+          { title: 'Hidratação Contínua ao Longo do Dia', desc: 'Reaplique hidratante leve ou hidrolato quando sentir a pele repuxar em ambientes com ar-condicionado.' },
+          { title: 'Drenagem Suave do Centro para as Laterais', desc: 'Faça massagens leves do centro do rosto em direção às têmporas e pescoço.' },
+          { title: 'Sono e Hidratação', desc: 'Beba água ao longo do dia e priorize o descanso noturno.' }
+        ],
+        soap: 'Sabonete suave de Argila Rosa ou Aveia (com glicerina vegetal), sem detergentes agressivos.',
+        oil: 'Hidratantes: gel-creme ou emulsão com pantenol, ácido hialurônico vegetal/glicerina e aloe vera. Óleos essenciais: lavanda, alecrim ou palmarosa (sempre diluídos em óleo carreador).',
+        actives: ['Sabonete Argila Rosa', 'Hidratante com Pantenol', 'Óleo de Café Verde', 'OE Lavanda', 'OE Alecrim', 'Argila Rosa'],
+        brand: 'Sabonete suave de argila rosa ou aveia + hidratante aquoso com pantenol + óleo de café verde ou semente de uva com óleo essencial de lavanda à noite.',
+        avoid: '⚠️ Dica: Óleos essenciais cítricos são fotossensíveis — evite exposição solar após aplicá-los e faça sempre diluição correta.'
+      },
+
+      linhas: {
+        skinLabel: 'Pele Seca / Madura',
+        badge: 'Rugas & Nutrição Lipídica',
+        headline: 'Nutrição Profunda, Maciez & Conforto Cutâneo',
+        summary: 'Protocolo focado em repor hidratação e lipídios em peles secas ou com linhas de expressão, usando sabonetes cremosos, hidratantes ricos e óleos essenciais nutritivos.',
+        morning: [
+          { title: 'Sabonete Cremoso Hidratante (Karité ou Aveia)', desc: 'Lave com sabonete cremoso rico em manteiga de karité, aveia ou óleo de oliva, evitando água muito quente.' },
+          { title: 'Hidratante Cremoso ou Emulsão Nutritiva', desc: 'Aplique hidratante com manteiga de karité, pantenol ou ceramidas vegetais enquanto a pele ainda está levemente úmida.' },
+          { title: 'Protetor Solar Hidratante', desc: 'Finalize com protetor solar facial de base hidratante.' }
+        ],
+        night: [
+          { title: 'Limpeza Nutritiva com Óleo Vegetal', desc: 'Use óleo vegetal de abacate, amêndoas doces ou rosa mosqueta para limpar sem retirar a oleosidade protetora.' },
+          { title: 'Óleo de Rosa Mosqueta + OE Olíbano ou Gerânio', desc: 'Aplique 3 a 4 gotas de óleo de rosa mosqueta misturadas com 1 gota diluída de óleo essencial de olíbano ou gerânio.' },
+          { title: 'Creme ou Bastão Nutritivo nas Linhas', desc: 'Sele as áreas mais secas e com linhas de expressão com creme ou bastão de manteiga de karité.' }
+        ],
+        weekly: [
+          { title: 'Máscara de Argila Vermelha com Óleo Vegetal (1x por semana)', desc: 'Misture argila vermelha com algumas gotas de óleo de rosa mosqueta e hidrolato; deixe agir por cerca de 10 minutos.' },
+          { title: 'Hidratação Intensiva Noturna', desc: 'Aplique uma camada extra de creme ou bastão nutritivo nas áreas mais ressecadas antes de dormir.' }
+        ],
+        synergy: [
+          { title: 'Aplicar Hidratante com a Pele Úmida', desc: 'Ajuda a reter melhor a umidade na camada córnea.' },
+          { title: 'Cuidado Também no Pescoço e Colo', desc: 'Estenda o hidratante e o óleo vegetal para o pescoço com movimentos suaves para cima.' },
+          { title: 'Evitar Produtos com Álcool ou Adstringentes Fortes', desc: 'Eles ressecam ainda mais a pele e evidenciam as linhas finas.' }
+        ],
+        soap: 'Sabonete cremoso com Manteiga de Karité, Aveia ou Óleo de Oliva, de limpeza suave.',
+        oil: 'Hidratantes: cremes ou bastões com manteiga de karité, óleos vegetais (rosa mosqueta, abacate) e pantenol. Óleos essenciais: olíbano, gerânio ou palmarosa (sempre diluídos).',
+        actives: ['Sabonete Karité & Aveia', 'Creme/Bastão de Karité', 'Hidratante com Pantenol', 'Óleo de Rosa Mosqueta', 'OE Olíbano', 'OE Gerânio'],
+        brand: 'Sabonete cremoso de karité e aveia + hidratante nutritivo com manteiga de karité e pantenol + óleo de rosa mosqueta com óleo essencial de olíbano ou gerânio.',
+        avoid: '⚠️ Evite sabonetes adstringentes, argila verde pura no rosto inteiro ou produtos com álcool — eles aumentam o ressecamento e as linhas finas.'
+      },
+
+      mista: {
+        skinLabel: 'Pele Mista Equilibrada',
+        badge: 'Equilíbrio Zona T & Viço',
+        headline: 'Equilíbrio Entre Oleosidade e Hidratação',
+        summary: 'Protocolo para equilibrar o brilho da zona T sem ressecar as bochechas, combinando limpeza suave, hidratantes leves e óleos essenciais equilibrantes.',
+        morning: [
+          { title: 'Sabonete Suave de Argila Branca ou Camomila', desc: 'Lave com sabonete suave de argila branca, aveia ou camomila com água fria ou fresca.' },
+          { title: 'Hidratante Leve (Gel-Creme ou Emulsão Fluida)', desc: 'Aplique hidratante leve com pantenol ou aloe vera em todo o rosto.' },
+          { title: 'Protetor Solar Facial', desc: 'Finalize com protetor solar adequado para pele mista.' }
+        ],
+        night: [
+          { title: 'Limpeza Suave Noturna', desc: 'Remova resíduos do dia com sabonete suave ou água micelar.' },
+          { title: 'Óleo Vegetal Leve + OE Palmarosa ou Lavanda', desc: 'Use 2 gotas de óleo de semente de uva ou jojoba com 1 gota diluída de óleo essencial de palmarosa ou lavanda.' },
+          { title: 'Hidratação Direcionada', desc: 'Reforce o hidratante nas áreas mais secas (como bochechas) e mantenha camada leve na zona T.' }
+        ],
+        weekly: [
+          { title: 'Máscara de Argila por Zonas (1x por semana)', desc: 'Use argila verde apenas na zona T e argila branca ou rosa nas bochechas por cerca de 10 minutos.' }
+        ],
+        synergy: [
+          { title: 'Ajustar Texturas por Região', desc: 'Prefira texturas mais leves na zona T e mais nutritivas onde a pele resseca.' },
+          { title: 'Hidratação Constante', desc: 'Manter a pele hidratada ajuda a regular o conforto cutâneo ao longo do dia.' }
+        ],
+        soap: 'Sabonete suave de Argila Branca, Aveia ou Camomila, com limpeza equilibrada.',
+        oil: 'Hidratantes: gel-creme ou emulsão leve com pantenol, glicerina e aloe vera. Óleos essenciais: palmarosa, lavanda ou gerânio (sempre diluídos em óleo de semente de uva ou jojoba).',
+        actives: ['Sabonete Argila Branca', 'Hidratante Gel-Creme', 'Óleo de Semente de Uva', 'OE Palmarosa', 'OE Lavanda', 'Argila Branca & Rosa'],
+        brand: 'Sabonete suave de argila branca e aveia + hidratante leve com pantenol + óleo de semente de uva com óleo essencial de palmarosa ou lavanda.',
+        avoid: '⚠️ Evite sabonetes muito agressivos que causem efeito rebote ou cremes excessivamente pesados na zona T.'
+      }
+    };
+
+    function switchInputMode(mode) {
+      state.inputMode = mode;
+      document.getElementById('modePhotoBtn').classList.toggle('active', mode === 'photo');
+      document.getElementById('modeQuizBtn').classList.toggle('active', mode === 'quiz');
+      document.getElementById('modeRecipesBtn').classList.toggle('active', mode === 'recipes');
+
+      document.getElementById('photoCard').classList.toggle('hidden', mode !== 'photo');
+      document.getElementById('quizCard').classList.toggle('hidden', mode !== 'quiz');
+      document.getElementById('recipesCard').classList.toggle('hidden', mode !== 'recipes');
+
+      if (mode !== 'photo') {
+        closeLiveCamera();
+      }
+    }
+
+    function selectQuizChip(el, field) {
+      var parent = el.parentElement;
+      var chips = parent.querySelectorAll('.q-chip');
+      for (var i = 0; i < chips.length; i++) {
+        chips[i].classList.remove('active');
+      }
+      el.classList.add('active');
+      state.quiz[field] = el.getAttribute('data-val');
+    }
+
+    function analyzeFromQuiz() {
+      var ageMap = {
+        jovem: 'Pele Jovem',
+        adulta: 'Pele Adulta',
+        madura: 'Pele Madura 45+'
+      };
+      var skinMap = {
+        mista: 'Pele Mista',
+        oleosa: 'Pele Oleosa',
+        seca: 'Pele Seca',
+        sensivel: 'Pele Sensível'
+      };
+
+      var key = state.quiz.concern;
+      var ageText = ageMap[state.quiz.ageStage] || 'Pele Adulta';
+      var skinText = skinMap[state.quiz.skinType] || 'Pele Mista';
+
+      var pctHydration = state.quiz.skinType === 'seca' ? 62 : (state.quiz.skinType === 'oleosa' ? 82 : 74);
+      var pctEvenness = key === 'melasma' ? 60 : 78;
+      var pctCalmness = state.quiz.skinType === 'sensivel' ? 64 : (key === 'espinhas' ? 66 : 82);
+      var pctTexture = (key === 'rejuvenescimento' || key === 'linhas' || state.quiz.ageStage === 'madura') ? 65 : 80;
+      var totalScore = Math.round((pctHydration + pctEvenness + pctCalmness + pctTexture) / 4);
+
+      state.diagnosis = {
+        source: 'quiz',
+        score: totalScore,
+        pctHydration: pctHydration,
+        pctEvenness: pctEvenness,
+        pctCalmness: pctCalmness,
+        pctTexture: pctTexture,
+        customBadge: ageText + ' • ' + skinText,
+        zones: {
+          tLabel: state.quiz.skinType === 'oleosa' || state.quiz.skinType === 'mista' ? 'Brilho ativo' : 'Equilibrada',
+          eLabel: key === 'cansada' || key === 'rejuvenescimento' ? 'Cansaço/Linhas' : 'Descansada',
+          cLabel: key === 'melasma' ? 'Manchas/Sol' : 'Uniforme',
+          qLabel: key === 'espinhas' ? 'Poros ativos' : 'Sustentada'
+        }
+      };
+
+      document.getElementById('resultSourceTitle').textContent = 'Protocolo Personalizado pelo Questionário';
+      document.getElementById('zonesBlock').classList.add('hidden');
+      document.getElementById('resScore').textContent = totalScore;
+      document.getElementById('valLum').textContent = pctHydration + '%';
+      document.getElementById('valEven').textContent = pctEvenness + '%';
+      document.getElementById('valCalm').textContent = pctCalmness + '%';
+      document.getElementById('valTex').textContent = pctTexture + '%';
+
+      applyProtocolToUI(key, ageText + ' • ' + skinText);
+
+      var resultSec = document.getElementById('resultSection');
+      resultSec.style.display = 'block';
+
+      setTimeout(function() {
+        document.getElementById('barLum').style.width = pctHydration + '%';
+        document.getElementById('barEven').style.width = pctEvenness + '%';
+        document.getElementById('barCalm').style.width = pctCalmness + '%';
+        document.getElementById('barTex').style.width = pctTexture + '%';
+      }, 80);
+
+      resultSec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function openSelfieCamera() {
+      if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices.getUserMedia({
+          video: { facingMode: 'user' },
+          audio: false
+        }).then(function(stream) {
+          state.mediaStream = stream;
+          var video = document.getElementById('liveVideo');
+          video.srcObject = stream;
+          video.classList.remove('hidden');
+          document.getElementById('previewImg').classList.add('hidden');
+          document.getElementById('placeholderContent').classList.add('hidden');
+          document.getElementById('zoneOverlay').style.display = 'block';
+          document.getElementById('mainPhotoButtons').classList.add('hidden');
+          document.getElementById('liveCameraButtons').classList.remove('hidden');
+          document.getElementById('analyzePhotoBtn').classList.add('hidden');
+          document.getElementById('photoStatusNote').textContent = 'Encaixe o rosto na guia oval e toque em Capturar Foto.';
+        }).catch(function() {
+          triggerNativePicker(true);
+        });
+      } else {
+        triggerNativePicker(true);
+      }
+    }
+
+    function openGalleryPicker() {
+      closeLiveCamera();
+      triggerNativePicker(false);
+    }
+
+    function triggerNativePicker(useCamera) {
+      var input = document.getElementById('filePickerInput');
+      if (useCamera) {
+        input.setAttribute('capture', 'user');
+      } else {
+        input.removeAttribute('capture');
+      }
+      input.value = '';
+      input.click();
+    }
+
+    function snapLivePhoto() {
+      var video = document.getElementById('liveVideo');
+      var canvas = document.getElementById('hiddenCanvas');
+      canvas.width = video.videoWidth || 640;
+      canvas.height = video.videoHeight || 640;
+      var ctx = canvas.getContext('2d');
+      ctx.translate(canvas.width, 0);
+      ctx.scale(-1, 1);
+      ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+      var dataUrl = canvas.toDataURL('image/jpeg', 0.92);
+      closeLiveCamera();
+      applyCapturedImage(dataUrl);
+    }
+
+    function closeLiveCamera() {
+      if (state.mediaStream) {
+        var tracks = state.mediaStream.getTracks();
+        for (var i = 0; i < tracks.length; i++) {
+          tracks[i].stop();
+        }
+        state.mediaStream = null;
+      }
+      document.getElementById('liveVideo').classList.add('hidden');
+      document.getElementById('mainPhotoButtons').classList.remove('hidden');
+      document.getElementById('liveCameraButtons').classList.add('hidden');
+    }
+
+    function applyCapturedImage(src) {
+      var img = document.getElementById('previewImg');
+      img.src = src;
+      img.classList.remove('hidden');
+      document.getElementById('placeholderContent').classList.add('hidden');
+      document.getElementById('zoneOverlay').style.display = 'block';
+      document.getElementById('analyzePhotoBtn').classList.remove('hidden');
+      document.getElementById('photoStatusNote').textContent = 'Foto carregada! Toque no botão acima para escanear sua pele.';
+      state.hasPhoto = true;
+
+      document.getElementById('pinForehead').textContent = 'Zona T: pronta';
+      document.getElementById('pinEyes').textContent = 'Olhos: prontos';
+      document.getElementById('pinCheeks').textContent = 'Bochecha: pronta';
+      document.getElementById('pinChin').textContent = 'Queixo: pronto';
+    }
+
+    document.getElementById('filePickerInput').addEventListener('change', function(e) {
+      if (e.target.files && e.target.files[0]) {
+        var reader = new FileReader();
+        reader.onload = function(ev) {
+          applyCapturedImage(ev.target.result);
+        };
+        reader.readAsDataURL(e.target.files[0]);
+      }
+    });
+
+    function analyzePhotoDetailed() {
+      if (!state.hasPhoto) {
+        alert('Tire uma selfie ou escolha uma foto do rosto primeiro.');
+        return;
+      }
+
+      var btn = document.getElementById('analyzePhotoBtn');
+      var scanLine = document.getElementById('scanLine');
+      var scanBadge = document.getElementById('scanBadge');
+
+      btn.textContent = '⏳ Mapeando zonas, linhas e vitalidade...';
+      btn.disabled = true;
+      scanLine.style.display = 'block';
+      scanBadge.style.display = 'block';
+      scanBadge.textContent = 'Analisando Zona T e linhas da testa...';
+
+      setTimeout(function() {
+        scanBadge.textContent = 'Avaliando contorno dos olhos e bochechas...';
+      }, 600);
+
+      setTimeout(function() {
+        scanBadge.textContent = 'Calculando colágeno, luminosidade e textura...';
+      }, 1200);
+
+      setTimeout(function() {
+        scanLine.style.display = 'none';
+        scanBadge.style.display = 'none';
+        btn.textContent = '🔄 Analisar Foto Novamente';
+        btn.disabled = false;
+        computeRegionalSkinAnalysis();
+      }, 1850);
+    }
+
+    function getRegionStats(ctx, x, y, w, h) {
+      var data = ctx.getImageData(x, y, w, h).data;
+      var count = data.length / 4;
+      var sumLum = 0;
+      var sumRedness = 0;
+      var specularCount = 0;
+      var darkSpotCount = 0;
+      var lumArr = [];
+
+      for (var i = 0; i < data.length; i += 4) {
+        var r = data[i];
+        var g = data[i + 1];
+        var b = data[i + 2];
+        var lum = 0.299 * r + 0.587 * g + 0.114 * b;
+        lumArr.push(lum);
+        sumLum += lum;
+        sumRedness += (r - (g + b) / 2);
+        if (lum > 215) specularCount++;
+      }
+
+      var avgLum = sumLum / count;
+      var sqDiff = 0;
+      for (var j = 0; j < lumArr.length; j++) {
+        var diff = lumArr[j] - avgLum;
+        sqDiff += diff * diff;
+        if (lumArr[j] < avgLum - 26) darkSpotCount++;
+      }
+
+      var stdDev = Math.sqrt(sqDiff / count);
+      return {
+        avgLum: avgLum,
+        redness: sumRedness / count,
+        shineRatio: specularCount / count,
+        spotRatio: darkSpotCount / count,
+        textureVar: stdDev
+      };
+    }
+
+    function computeRegionalSkinAnalysis() {
+      var img = document.getElementById('previewImg');
+      var canvas = document.getElementById('hiddenCanvas');
+      var ctx = canvas.getContext('2d');
+      canvas.width = 120;
+      canvas.height = 120;
+      ctx.drawImage(img, 0, 0, 120, 120);
+
+      var forehead = getRegionStats(ctx, 42, 22, 36, 18);
+      var eyes = getRegionStats(ctx, 34, 44, 52, 14);
+      var cheeks = getRegionStats(ctx, 28, 60, 64, 22);
+      var chin = getRegionStats(ctx, 44, 86, 32, 18);
+
+      var tZoneShine = forehead.shineRatio + chin.shineRatio;
+      var overallRedness = (forehead.redness + cheeks.redness + chin.redness) / 3;
+      var cheekPigment = cheeks.spotRatio + (cheeks.textureVar / 140);
+      var underEyeShadow = Math.max(0, (cheeks.avgLum - eyes.avgLum) / 60);
+      var overallLum = (forehead.avgLum + cheeks.avgLum + chin.avgLum) / 3;
+      var fineLinesIndex = (forehead.textureVar + eyes.textureVar) / 2;
+
+      var detectedKey = 'mista';
+      if (overallRedness > 34 && (chin.textureVar > 24 || forehead.textureVar > 24)) {
+        detectedKey = 'espinhas';
+      } else if ((overallLum < 126 || underEyeShadow > 0.30) && fineLinesIndex > 23 && tZoneShine < 0.06) {
+        detectedKey = 'rejuvenescimento';
+      } else if (cheekPigment > 0.34 && cheeks.textureVar > 26) {
+        detectedKey = 'melasma';
+      } else if (overallLum < 112 || underEyeShadow > 0.35) {
+        detectedKey = 'cansada';
+      } else if (overallLum < 135 && tZoneShine < 0.04) {
+        detectedKey = 'linhas';
+      } else {
+        detectedKey = 'mista';
+      }
+
+      var pctHydration = Math.min(94, Math.max(54, Math.round((overallLum / 255) * 85 + 22)));
+      var pctEvenness = Math.min(94, Math.max(54, Math.round(92 - cheekPigment * 65)));
+      var pctCalmness = Math.min(94, Math.max(55, Math.round(95 - Math.max(0, overallRedness - 12) * 1.1)));
+      var pctTexture = Math.min(94, Math.max(54, Math.round(90 - (fineLinesIndex / 3.0))));
+      var totalScore = Math.round((pctHydration + pctEvenness + pctCalmness + pctTexture) / 4);
+
+      var tLabel = tZoneShine > 0.08 ? 'Brilho ativo' : (fineLinesIndex > 25 ? 'Linhas finas' : 'Equilibrada');
+      var eLabel = underEyeShadow > 0.30 ? 'Cansaço/Linhas' : 'Descansada';
+      var cLabel = cheekPigment > 0.33 ? 'Manchas/Contraste' : (overallRedness > 32 ? 'Rosada/Sensível' : 'Uniforme');
+      var qLabel = chin.redness > 34 ? 'Poros/Sensível' : 'Firme';
+
+      document.getElementById('pinForehead').textContent = 'Zona T: ' + tLabel;
+      document.getElementById('pinEyes').textContent = 'Olhos: ' + eLabel;
+      document.getElementById('pinCheeks').textContent = 'Bochecha: ' + cLabel;
+      document.getElementById('pinChin').textContent = 'Queixo: ' + qLabel;
+
+      document.getElementById('zoneTStatus').textContent = tLabel;
+      document.getElementById('zoneTDetail').textContent = tZoneShine > 0.08
+        ? 'Reflexo sebáceo detectado na testa e nariz; pede limpeza suave.'
+        : 'Pede hidratação nutritiva e estímulo suave de renovação.';
+
+      document.getElementById('zoneCheekStatus').textContent = cLabel;
+      document.getElementById('zoneCheekDetail').textContent = cheekPigment > 0.33
+        ? 'Variação de pigmento detectada; priorize antioxidantes e filtro solar.'
+        : 'Subtom homogêneo com boa resposta a óleos vegetais regeneradores.';
+
+      document.getElementById('zoneEyeStatus').textContent = eLabel;
+      document.getElementById('zoneEyeDetail').textContent = underEyeShadow > 0.30
+        ? 'Sinais de fadiga e linhas delicadas; compressa fria e Rosa Mosqueta ajudam.'
+        : 'Boa luminosidade ao redor dos olhos.';
+
+      document.getElementById('zoneChinStatus').textContent = qLabel;
+      document.getElementById('zoneChinDetail').textContent = chin.redness > 34
+        ? 'Micro-vermelhidão localizada; evite atrito e use ativos calmantes.'
+        : 'Contorno uniforme pedindo massagem ascendente para firmeza.';
+
+      state.diagnosis = {
+        source: 'photo',
+        score: totalScore,
+        pctHydration: pctHydration,
+        pctEvenness: pctEvenness,
+        pctCalmness: pctCalmness,
+        pctTexture: pctTexture,
+        customBadge: null,
+        zones: { tLabel: tLabel, eLabel: eLabel, cLabel: cLabel, qLabel: qLabel }
+      };
+
+      document.getElementById('resultSourceTitle').textContent = 'Laudo Visual Detalhado da Foto';
+      document.getElementById('zonesBlock').classList.remove('hidden');
+      document.getElementById('resScore').textContent = totalScore;
+      document.getElementById('valLum').textContent = pctHydration + '%';
+      document.getElementById('valEven').textContent = pctEvenness + '%';
+      document.getElementById('valCalm').textContent = pctCalmness + '%';
+      document.getElementById('valTex').textContent = pctTexture + '%';
+
+      applyProtocolToUI(detectedKey, null);
+
+      var resultSec = document.getElementById('resultSection');
+      resultSec.style.display = 'block';
+
+      setTimeout(function() {
+        document.getElementById('barLum').style.width = pctHydration + '%';
+        document.getElementById('barEven').style.width = pctEvenness + '%';
+        document.getElementById('barCalm').style.width = pctCalmness + '%';
+        document.getElementById('barTex').style.width = pctTexture + '%';
+      }, 80);
+
+      document.getElementById('photoStatusNote').textContent = '✓ Análise visual concluída! Você também pode alternar os protocolos abaixo.';
+      resultSec.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    function switchProtocol(key) {
+      var custom = state.diagnosis ? state.diagnosis.customBadge : null;
+      applyProtocolToUI(key, custom);
+    }
+
+    function applyProtocolToUI(key, customBadge) {
+      var protocol = protocols[key] || protocols.rejuvenescimento;
+      state.currentKey = key;
+      if (state.diagnosis) {
+        state.diagnosis.protocol = protocol;
+      }
+
+      var chips = document.querySelectorAll('.focus-chip');
+      for (var c = 0; c < chips.length; c++) {
+        chips[c].classList.toggle('active', chips[c].getAttribute('data-key') === key);
+      }
+
+      document.getElementById('resDetectedSkin').textContent = customBadge || protocol.skinLabel;
+      document.getElementById('resDetectedFocus').textContent = protocol.badge;
+      document.getElementById('resHeadline').textContent = protocol.headline;
+      document.getElementById('resSummary').textContent = protocol.summary;
+
+      document.getElementById('dayStepsContainer').innerHTML = buildStepsHtml(protocol.morning);
+      document.getElementById('nightStepsContainer').innerHTML = buildStepsHtml(protocol.night);
+      document.getElementById('weeklyStepsContainer').innerHTML = buildStepsHtml(protocol.weekly);
+      document.getElementById('synergyStepsContainer').innerHTML = buildStepsHtml(protocol.synergy);
+
+      document.getElementById('soapRecommendation').textContent = protocol.soap;
+      document.getElementById('oilRecommendation').textContent = protocol.oil;
+      document.getElementById('brandMatch').textContent = protocol.brand;
+      document.getElementById('avoidWarning').textContent = protocol.avoid;
+
+      var activesHtml = '';
+      for (var k = 0; k < protocol.actives.length; k++) {
+        activesHtml += '<span class="active-pill">🌿 ' + protocol.actives[k] + '</span>';
+      }
+      document.getElementById('activesList').innerHTML = activesHtml;
+    }
+
+    function buildStepsHtml(steps) {
+      var html = '';
+      for (var i = 0; i < steps.length; i++) {
+        html += '<div class="step-card">' +
+          '<div class="step-num">' + (i + 1) + '</div>' +
+          '<div>' +
+            '<div class="step-title">' + steps[i].title + '</div>' +
+            '<div class="step-desc">' + steps[i].desc + '</div>' +
+          '</div>' +
+        '</div>';
+      }
+      return html;
+    }
+
+    function buildShareMessage() {
+      var d = state.diagnosis;
+      var p = d.protocol;
+      var dayText = '';
+      for (var i = 0; i < p.morning.length; i++) {
+        dayText += (i + 1) + '. *' + p.morning[i].title + ':* ' + p.morning[i].desc + '\n';
+      }
+      var nightText = '';
+      for (var j = 0; j < p.night.length; j++) {
+        nightText += (j + 1) + '. *' + p.night[j].title + ':* ' + p.night[j].desc + '\n';
+      }
+      var synergyText = '';
+      for (var s = 0; s < p.synergy.length; s++) {
+        synergyText += '• *' + p.synergy[s].title + ':* ' + p.synergy[s].desc + '\n';
+      }
+
+      var headerProfile = d.customBadge || p.skinLabel;
+      var zoneLine = d.source === 'photo'
+        ? '📍 *Zonas:* Zona T (' + d.zones.tLabel + ') | Bochechas (' + d.zones.cLabel + ') | Olhos (' + d.zones.eLabel + ')\n'
+        : '';
+
+      return '🌿 *Diagnóstico Facial — Bom & Natural* 🌿\n\n' +
+        '✨ *Perfil:* ' + headerProfile + ' (' + d.score + '/100)\n' +
+        '🎯 *Tratamento:* ' + p.badge + '\n' +
+        zoneLine + '\n' +
+        '☀️ *TRATAMENTO DIURNO:*\n' + dayText + '\n' +
+        '🌙 *TRATAMENTO NOTURNO:*\n' + nightText + '\n' +
+        '✨ *TERAPIAS POTENCIALIZADORAS:*\n' + synergyText + '\n' +
+        p.avoid;
+    }
+
+    function shareDiagnosisResult() {
+      if (!state.diagnosis) {
+        alert('Gere o diagnóstico primeiro para compartilhar.');
+        return;
+      }
+      var text = buildShareMessage();
+      var waUrl = 'https://wa.me/?text=' + encodeURIComponent(text);
+
+      if (navigator.share) {
+        navigator.share({
+          title: 'Diagnóstico Facial — Bom & Natural',
+          text: text
+        }).catch(function() {
+          openShareModal(text, waUrl);
+        });
+      } else {
+        openShareModal(text, waUrl);
+      }
+    }
+
+    function openShareModal(text, waUrl) {
+      document.getElementById('shareTextArea').value = text;
+      document.getElementById('shareWhatsLink').href = waUrl;
+      document.getElementById('shareModal').style.display = 'flex';
+    }
+
+    function closeShareModal() {
+      document.getElementById('shareModal').style.display = 'none';
+    }
+
+    function copyShareText() {
+      var area = document.getElementById('shareTextArea');
+      area.select();
+      area.setSelectionRange(0, 99999);
+      try {
+        document.execCommand('copy');
+        alert('Resultado copiado! Agora é só colar onde quiser compartilhar.');
+      } catch (e) {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(area.value).then(function() {
+            alert('Resultado copiado!');
+          });
+        }
+      }
+    }
+
+    function generateStoryCard() {
+      if (!state.diagnosis) {
+        alert('Gere o diagnóstico primeiro para criar o cartão.');
+        return;
+      }
+      var d = state.diagnosis;
+      var p = d.protocol;
+      var canvas = document.createElement('canvas');
+      canvas.width = 1080;
+      canvas.height = 1920;
+      var ctx = canvas.getContext('2d');
+
+      var grad = ctx.createLinearGradient(0, 0, 1080, 1920);
+      grad.addColorStop(0, '#FDF8F6');
+      grad.addColorStop(0.5, '#F9ECEE');
+      grad.addColorStop(1, '#EEF4F0');
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, 1080, 1920);
+
+      ctx.strokeStyle = '#C9A26B';
+      ctx.lineWidth = 4;
+      ctx.strokeRect(54, 54, 972, 1812);
+
+      ctx.fillStyle = '#3D2C2E';
+      ctx.font = 'bold 66px Georgia, serif';
+      ctx.textAlign = 'center';
+      ctx.fillText('Bom & Natural', 540, 170);
+
+      ctx.fillStyle = '#7D9B8A';
+      ctx.font = '600 24px sans-serif';
+      ctx.fillText('PROTOCOLO PERSONALIZADO DE SKINCARE', 540, 218);
+
+      ctx.fillStyle = '#FFFFFF';
+      roundRect(ctx, 90, 275, 900, 1410, 44, true, false);
+
+      var topBadgeText = (d.customBadge || p.skinLabel).toUpperCase() + ' • VITALIDADE ' + d.score + '/100';
+      ctx.fillStyle = '#E8F0EC';
+      roundRect(ctx, 180, 325, 720, 52, 26, true, false);
+      ctx.fillStyle = '#4B6B59';
+      ctx.font = 'bold 23px sans-serif';
+      ctx.fillText(topBadgeText, 540, 359);
+
+      ctx.fillStyle = '#F3DCE0';
+      roundRect(ctx, 210, 392, 660, 50, 25, true, false);
+      ctx.fillStyle = '#A65263';
+      ctx.font = 'bold 24px sans-serif';
+      ctx.fillText(p.badge.toUpperCase(), 540, 425);
+
+      ctx.fillStyle = '#3D2C2E';
+      ctx.font = 'bold 38px Georgia, serif';
+      wrapText(ctx, p.headline, 540, 515, 780, 46);
+
+      ctx.fillStyle = '#FFF9EE';
+      roundRect(ctx, 140, 610, 800, 265, 24, true, false);
+      ctx.fillStyle = '#8F6822';
+      ctx.font = 'bold 28px Georgia, serif';
+      ctx.fillText('☀️ Ritual Diurno', 540, 658);
+      ctx.fillStyle = '#3D2C2E';
+      ctx.font = '400 23px sans-serif';
+      ctx.fillText('1. ' + p.morning[0].title, 540, 706);
+      ctx.fillText('2. ' + p.morning[1].title, 540, 750);
+      ctx.fillText('3. ' + p.morning[2].title, 540, 794);
+
+      ctx.fillStyle = '#F5F1FA';
+      roundRect(ctx, 140, 905, 800, 265, 24, true, false);
+      ctx.fillStyle = '#5C477A';
+      ctx.font = 'bold 28px Georgia, serif';
+      ctx.fillText('🌙 Ritual Noturno', 540, 953);
+      ctx.fillStyle = '#3D2C2E';
+      ctx.font = '400 23px sans-serif';
+      ctx.fillText('1. ' + p.night[0].title, 540, 1001);
+      ctx.fillText('2. ' + p.night[1].title, 540, 1045);
+      ctx.fillText('3. ' + p.night[2].title, 540, 1089);
+
+      ctx.fillStyle = '#A65263';
+      ctx.font = 'bold 29px Georgia, serif';
+      ctx.fillText('Sabonete & Ativos Indicados', 540, 1235);
+      ctx.fillStyle = '#3D2C2E';
+      ctx.font = '400 23px sans-serif';
+      wrapText(ctx, p.soap, 540, 1280, 780, 34);
+
+      ctx.fillStyle = '#4B6B59';
+      ctx.font = 'bold 24px sans-serif';
+      wrapText(ctx, '🌿 ' + p.actives.join('  •  '), 540, 1435, 780, 36);
+
+      ctx.fillStyle = '#7D686B';
+      ctx.font = 'italic 22px Georgia, serif';
+      wrapText(ctx, p.avoid, 540, 1545, 760, 32);
+
+      ctx.fillStyle = '#7D686B';
+      ctx.font = '600 25px sans-serif';
+      ctx.fillText('Cosmética Natural & Autocuidado', 540, 1785);
+
+      var url = canvas.toDataURL('image/png');
+      document.getElementById('storyImage').src = url;
+      document.getElementById('downloadStoryBtn').href = url;
+      document.getElementById('storyModal').style.display = 'flex';
+    }
+
+    function closeStoryModal() {
+      document.getElementById('storyModal').style.display = 'none';
+    }
+
+    function roundRect(ctx, x, y, width, height, radius, fill, stroke) {
+      ctx.beginPath();
+      ctx.moveTo(x + radius, y);
+      ctx.lineTo(x + width - radius, y);
+      ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+      ctx.lineTo(x + width, y + height - radius);
+      ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+      ctx.lineTo(x + radius, y + height);
+      ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+      ctx.lineTo(x, y + radius);
+      ctx.quadraticCurveTo(x, y, x + radius, y);
+      ctx.closePath();
+      if (fill) ctx.fill();
+      if (stroke) ctx.stroke();
+    }
+
+    function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
+      var words = text.split(' ');
+      var line = '';
+      for (var n = 0; n < words.length; n++) {
+        var testLine = line + words[n] + ' ';
+        var metrics = ctx.measureText(testLine);
+        if (metrics.width > maxWidth && n > 0) {
+          ctx.fillText(line, x, y);
+          line = words[n] + ' ';
+          y += lineHeight;
+        } else {
+          line = testLine;
+        }
+      }
+      ctx.fillText(line, x, y);
+    }
+  </script>
+</body>
+</html>
